@@ -1,0 +1,46 @@
+int SHIP = 100;
+int EXPLO = 70;
+int MISSLE = 200;
+
+int NUMBER_OF_ASTEROIDS = 30;
+
+int ASTEROID_IMAGE = 1;
+int BACKGROUND_IMAGE = 50;
+int SCORE_IMAGE = 60;
+int EXPLO_IMAGE = 70;
+int SHIP_IMAGE = 100;
+int MISSLE_IMAGE = 105;
+int LIVES_IMAGE = 90;
+int SUPER_ASTEROID_IMAGE = NUMBER_OF_ASTEROIDS;
+int MINI_SHIPS = 120;
+int DEATH_IMAGE = 210;
+
+int SYNC_RATE = 30;
+int	NUMBER_OF_SUPER_ASTEROIDS = SUPER_ASTEROID_IMAGE + 3;
+int MEMORY_LEAK_LOOP_COUNTER = 350;
+int ASTEROID_SPEED = -3;
+int ASTEROID_SPEED_HOLDER = ASTEROID_SPEED;
+int SHIP_SPEED = 7;
+int SCORE = 0;
+int HEALTH = 20;
+int MISSLE_SPEED = -30;
+bool SHOT = false;
+int TIME = 0;
+int INC_TIME = 0;
+int FASTBALL_SPEED = -20;
+bool F_BALL = false;
+int fastball;
+
+
+int BACKGROUND_MUSIC = 3;
+int LASER = 1;
+int CRASH = 2;
+int sASTROID_HIT = 4;
+int sBUMP = 5;
+int DEATH = 6;
+
+
+int SHIP_START_X = 250;
+int SHIP_START_Y = 840;
+int LIVES_X = + dbSpriteWidth(LIVES_IMAGE);
+int LIVES_Y = 870;
